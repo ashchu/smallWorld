@@ -18,7 +18,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row } from "reactstrap";
 
 const Header = () => {
   return (
@@ -34,7 +34,7 @@ const Header = () => {
                 require("../../assets/img/theme/smallworld4.jpg")
                   .default
               }
-              border="0" width="2000" height="400" class="right"
+              alt="img" border="0" width="2000" height="400" class="right"
                         />
             </Row>
           </div>
